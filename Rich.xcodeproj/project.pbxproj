@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A4AC444CBD6E4C14C3D1EEF /* libPods-Rich.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3FF70B69A8197EAB8EF891 /* libPods-Rich.a */; };
+		C410D8941DB38A1C00E5CC98 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C410D8931DB38A1B00E5CC98 /* PaymentViewController.swift */; };
+		C42678931DA9513000DD3A77 /* MyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42678921DA9513000DD3A77 /* MyAPIClient.swift */; };
+		C42678951DA97B4600DD3A77 /* CardsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42678941DA97B4600DD3A77 /* CardsListViewController.swift */; };
+		C42678981DA97D0900DD3A77 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42678961DA97D0900DD3A77 /* CardCell.swift */; };
+		C42678991DA97D0900DD3A77 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42678971DA97D0900DD3A77 /* CardCell.xib */; };
+		C426789B1DA97D7900DD3A77 /* StripeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C426789A1DA97D7900DD3A77 /* StripeUtil.swift */; };
+		C426789D1DA97E4D00DD3A77 /* StripeTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = C426789C1DA97E4D00DD3A77 /* StripeTools.swift */; };
 		C445478A1DA6539C0071C27A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44547891DA6539C0071C27A /* AppDelegate.swift */; };
 		C445478C1DA6539C0071C27A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C445478B1DA6539C0071C27A /* ViewController.swift */; };
 		C445478F1DA6539C0071C27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C445478D1DA6539C0071C27A /* Main.storyboard */; };
@@ -14,6 +22,10 @@
 		C44547941DA6539C0071C27A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44547921DA6539C0071C27A /* LaunchScreen.storyboard */; };
 		C445479F1DA6539C0071C27A /* RichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C445479E1DA6539C0071C27A /* RichTests.swift */; };
 		C44547AA1DA6539C0071C27A /* RichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44547A91DA6539C0071C27A /* RichUITests.swift */; };
+		C47F1AF51DB2C109001EBA60 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F1AF41DB2C109001EBA60 /* CircleView.swift */; };
+		C4ACF3711DA655280082F61D /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ACF36E1DA655280082F61D /* Fabric.framework */; };
+		C4ACF3721DA655280082F61D /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ACF36F1DA655280082F61D /* Stripe.framework */; };
+		C4ACF3731DA655280082F61D /* Stripe.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C4ACF3701DA655280082F61D /* Stripe.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D3FF70B69A8197EAB8EF891 /* libPods-Rich.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rich.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2604A52690B6022723AAAF9 /* Pods-Rich.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rich.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rich/Pods-Rich.debug.xcconfig"; sourceTree = "<group>"; };
+		C410D8931DB38A1B00E5CC98 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		C42678921DA9513000DD3A77 /* MyAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAPIClient.swift; sourceTree = "<group>"; };
+		C42678941DA97B4600DD3A77 /* CardsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsListViewController.swift; sourceTree = "<group>"; };
+		C42678961DA97D0900DD3A77 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		C42678971DA97D0900DD3A77 /* CardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		C426789A1DA97D7900DD3A77 /* StripeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripeUtil.swift; sourceTree = "<group>"; };
+		C426789C1DA97E4D00DD3A77 /* StripeTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripeTools.swift; sourceTree = "<group>"; };
 		C44547861DA6539C0071C27A /* Rich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rich.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44547891DA6539C0071C27A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C445478B1DA6539C0071C27A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,12 @@
 		C44547A51DA6539C0071C27A /* RichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44547A91DA6539C0071C27A /* RichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichUITests.swift; sourceTree = "<group>"; };
 		C44547AB1DA6539C0071C27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47F1AF41DB2C109001EBA60 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		C4ACF36E1DA655280082F61D /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		C4ACF36F1DA655280082F61D /* Stripe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Stripe.framework; sourceTree = "<group>"; };
+		C4ACF3701DA655280082F61D /* Stripe.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Stripe.bundle; path = Stripe.framework/Stripe.bundle; sourceTree = "<group>"; };
+		C4ACF3741DA6C2BF0082F61D /* Rich-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rich-Bridging-Header.h"; sourceTree = "<group>"; };
+		F8713109429251188A136476 /* Pods-Rich.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rich.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rich/Pods-Rich.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +81,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4ACF3711DA655280082F61D /* Fabric.framework in Frameworks */,
+				C4ACF3721DA655280082F61D /* Stripe.framework in Frameworks */,
+				8A4AC444CBD6E4C14C3D1EEF /* libPods-Rich.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +104,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CA6A2250DF8D52CCFC082A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D3FF70B69A8197EAB8EF891 /* libPods-Rich.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C445477D1DA6539C0071C27A = {
 			isa = PBXGroup;
 			children = (
+				C4ACF36E1DA655280082F61D /* Fabric.framework */,
+				C4ACF36F1DA655280082F61D /* Stripe.framework */,
+				C4ACF3701DA655280082F61D /* Stripe.bundle */,
 				C44547881DA6539C0071C27A /* Rich */,
 				C445479D1DA6539C0071C27A /* RichTests */,
 				C44547A81DA6539C0071C27A /* RichUITests */,
 				C44547871DA6539C0071C27A /* Products */,
+				E904DC880CD2A371B2CC0742 /* Pods */,
+				6CA6A2250DF8D52CCFC082A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +140,21 @@
 		C44547881DA6539C0071C27A /* Rich */ = {
 			isa = PBXGroup;
 			children = (
+				C47F1AF41DB2C109001EBA60 /* CircleView.swift */,
+				C42678921DA9513000DD3A77 /* MyAPIClient.swift */,
 				C44547891DA6539C0071C27A /* AppDelegate.swift */,
 				C445478B1DA6539C0071C27A /* ViewController.swift */,
 				C445478D1DA6539C0071C27A /* Main.storyboard */,
 				C44547901DA6539C0071C27A /* Assets.xcassets */,
 				C44547921DA6539C0071C27A /* LaunchScreen.storyboard */,
 				C44547951DA6539C0071C27A /* Info.plist */,
+				C4ACF3741DA6C2BF0082F61D /* Rich-Bridging-Header.h */,
+				C42678941DA97B4600DD3A77 /* CardsListViewController.swift */,
+				C42678961DA97D0900DD3A77 /* CardCell.swift */,
+				C42678971DA97D0900DD3A77 /* CardCell.xib */,
+				C426789A1DA97D7900DD3A77 /* StripeUtil.swift */,
+				C426789C1DA97E4D00DD3A77 /* StripeTools.swift */,
+				C410D8931DB38A1B00E5CC98 /* PaymentViewController.swift */,
 			);
 			path = Rich;
 			sourceTree = "<group>";
@@ -125,6 +177,15 @@
 			path = RichUITests;
 			sourceTree = "<group>";
 		};
+		E904DC880CD2A371B2CC0742 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2604A52690B6022723AAAF9 /* Pods-Rich.debug.xcconfig */,
+				F8713109429251188A136476 /* Pods-Rich.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +193,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C44547AE1DA6539C0071C27A /* Build configuration list for PBXNativeTarget "Rich" */;
 			buildPhases = (
+				EB60C911D85A9331D8AFFF1E /* [CP] Check Pods Manifest.lock */,
 				C44547821DA6539C0071C27A /* Sources */,
 				C44547831DA6539C0071C27A /* Frameworks */,
 				C44547841DA6539C0071C27A /* Resources */,
+				C4ACF3671DA654070082F61D /* Run Script */,
+				D57C1B35BFD16AF495D421FD /* [CP] Embed Pods Frameworks */,
+				9EA9DFD495932EA6E18AD9DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +258,8 @@
 				TargetAttributes = {
 					C44547851DA6539C0071C27A = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = D9799SULEW;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					C44547991DA6539C0071C27A = {
@@ -232,7 +299,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4ACF3731DA655280082F61D /* Stripe.bundle in Resources */,
 				C44547941DA6539C0071C27A /* LaunchScreen.storyboard in Resources */,
+				C42678991DA97D0900DD3A77 /* CardCell.xib in Resources */,
 				C44547911DA6539C0071C27A /* Assets.xcassets in Resources */,
 				C445478F1DA6539C0071C27A /* Main.storyboard in Resources */,
 			);
@@ -254,13 +323,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9EA9DFD495932EA6E18AD9DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rich/Pods-Rich-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4ACF3671DA654070082F61D /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 03215194def2e7e91170f769873e545618982882 9935b4660ab264601feea2c9a2a83dc001161581e46e7af1f5afb1afb6e36593";
+		};
+		D57C1B35BFD16AF495D421FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rich/Pods-Rich-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB60C911D85A9331D8AFFF1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C44547821DA6539C0071C27A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47F1AF51DB2C109001EBA60 /* CircleView.swift in Sources */,
+				C42678981DA97D0900DD3A77 /* CardCell.swift in Sources */,
+				C42678951DA97B4600DD3A77 /* CardsListViewController.swift in Sources */,
+				C426789B1DA97D7900DD3A77 /* StripeUtil.swift in Sources */,
+				C426789D1DA97E4D00DD3A77 /* StripeTools.swift in Sources */,
 				C445478C1DA6539C0071C27A /* ViewController.swift in Sources */,
 				C445478A1DA6539C0071C27A /* AppDelegate.swift in Sources */,
+				C410D8941DB38A1C00E5CC98 /* PaymentViewController.swift in Sources */,
+				C42678931DA9513000DD3A77 /* MyAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,24 +546,43 @@
 		};
 		C44547AF1DA6539C0071C27A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2604A52690B6022723AAAF9 /* Pods-Rich.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = D9799SULEW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rich",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Rich/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MalOrg.Rich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rich/Rich-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		C44547B01DA6539C0071C27A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8713109429251188A136476 /* Pods-Rich.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = D9799SULEW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rich",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Rich/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MalOrg.Rich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rich/Rich-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -503,6 +660,7 @@
 				C44547B01DA6539C0071C27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C44547B11DA6539C0071C27A /* Build configuration list for PBXNativeTarget "RichTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +669,7 @@
 				C44547B31DA6539C0071C27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C44547B41DA6539C0071C27A /* Build configuration list for PBXNativeTarget "RichUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +678,7 @@
 				C44547B61DA6539C0071C27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

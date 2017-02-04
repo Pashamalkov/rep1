@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Fabric
+import Stripe
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Fabric.with([STPAPIClient.self])
+        // TODO: Replace with your own test publishable key
+        // TODO: DEBUG ONLY! Remove / conditionalize before launch
+        Stripe.setDefaultPublishableKey("pk_test_49cXcEk4UqBoYrOlUfqRE7rR")
+//        STPTheme.default().accentColor = UIColor.black
+        STPPaymentConfiguration.shared().smsAutofillDisabled = true
+//        STPPaymentConfiguration.shared().
+        
+
+
         return true
     }
 
